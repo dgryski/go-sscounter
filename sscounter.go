@@ -1,7 +1,7 @@
 // Package sscounter implements scalable statistics counters
 /*
 
-https://blogs.oracle.com/dave/resource/spaa13-dice-ScalableStatsCounters.pdf
+https://cdn.app.compendium.com/uploads/user/e7c690e8-6ff9-102a-ac6d-e4aebca50425/f4a5b21d-66fa-4885-92bf-c4e81c06d916/File/088e77af1c61aee424725152830c44f7/spaa13_dice_scalablestatscounters.pdf
 
 */
 package sscounter
