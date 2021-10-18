@@ -27,7 +27,7 @@ func TestCounter(t *testing.T) {
 	v := c.Val()
 
 	if v < iters*(1-err) || iters*(1+err) < v {
-		t.Errorf("c.Val() fall outside error bounds: %v", v)
+		t.Errorf("c.Val() fall outside error bounds: want %v, got %v", iters, v)
 	}
 }
 
@@ -64,6 +64,6 @@ func TestCounterN(t *testing.T) {
 	v := c.Val()
 
 	if v < iters*(1-err) || iters*(1+err) < v {
-		t.Errorf("c.Val() fall outside error bounds: %v", v)
+		t.Errorf("c.Val() fall outside error bounds: want %v, got %v", iters, v)
 	}
 }
